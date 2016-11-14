@@ -35,9 +35,16 @@ var Babysitter = function (startTime, endTime, bedTime) {
         getTotalHoursWorked: function() {
             var hoursWorked = 0;
             if(this.isValidStartTime() && this.isValidEndTime()) {
-                hoursWorked = (this.getEndTime().getTime() - this.getStartTime().getTime())/3600000;
+                hoursWorked = Math.floor((this.getEndTime().getTime() - this.getStartTime().getTime())/3600000);
             }
             return hoursWorked;
+        },
+        getPreBedTimeHours: function () {
+            var preHours = 0;
+            if(typeof this.getBedTime() !== 'undefined') {
+                preHours = Math.floor((this.getBedTime().getTime() - this.getStartTime().getTime())/3600000);
+            }
+            return preHours;
         }
     }
 };

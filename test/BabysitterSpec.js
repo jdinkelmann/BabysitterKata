@@ -44,7 +44,7 @@ describe('Babysitter Kata', function () {
     });
 
     it('should reject an invalid start time', function () {
-        var tooEarly = new Date("November 13, 2016 09:00:00")
+        var tooEarly = new Date("November 13, 2016 09:00:00");
         var badBabysitter = new Babysitter(tooEarly,endTime,bedTime);
         expect(badBabysitter.isValidStartTime()).toBeFalsy();
     });
@@ -60,6 +60,9 @@ describe('Babysitter Kata', function () {
         expect(babysitter.getTotalHoursWorked()).toBe(11);
     });
 
+    it('should return my pre-bedtime hours', function () {
+      expect(babysitter.getPreBedTimeHours()).toBe(4);
+    });
 
 
 
