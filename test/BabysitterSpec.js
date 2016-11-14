@@ -37,5 +37,9 @@ describe('Babysitter Kata', function () {
 
     it('should validate that the current start time is OK', function () {
         expect(babysitter.isValidStartTime()).toBeTruthy();
-    })
+    });
+
+    it('should validate that the current end time is OK', function () {
+        expect(babysitter.isValidEndTime()).toBeTruthy();
+    });
 });
