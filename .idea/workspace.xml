@@ -43,8 +43,8 @@
       <file leaf-file-name="BabysitterSpec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="483">
+              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="356">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
-        <option value="$PROJECT_DIR$/src/Babysitter.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Babysitter.js" />
         <option value="$PROJECT_DIR$/test/BabysitterSpec.js" />
       </list>
     </option>
@@ -269,44 +269,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479092111938</updated>
-      <workItem from="1479092114759" duration="4656000" />
+      <workItem from="1479092114759" duration="5391000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 11m 45s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 17m 58s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 11m 55s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 18m 17s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 11m 59s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 18m 28s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 12m 20s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 22m 11s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 12m 29s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 22m 18s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 12m 40s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 22m 23s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 12m 50s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 23m 43s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 13m 02s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 24m 07s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 13m 17s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 24m 32s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 23h 13m 25s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 23h 25m 02s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4656000" />
+    <option name="totallyTimeSpent" value="5391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -358,14 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -374,10 +366,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="483">
+          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
           <folding />
         </state>
       </provider>

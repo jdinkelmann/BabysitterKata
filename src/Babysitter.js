@@ -23,13 +23,20 @@ var Babysitter = function (startTime, endTime, bedTime) {
             return 16;
         },
         isValidStartTime: function() {
-            return this.getStartTime().getHours() >= 15;
+            return this.getStartTime().getHours() >= 17;
         },
         isValidEndTime: function () {
             var startDay = this.getStartTime().getDay();
             var endTime = this.getEndTime().getHours();
             var endDay = this.getEndTime().getDay();
-            return ((endDay - startDay === 1)  && endTime+1 === 4);
+            return ((endDay - startDay === 1)  && endTime === 4);
+        },
+        getTotalHoursWorked: function() {
+            var hoursWorked = 0;
+            if(this.isValidStartTime() && this.isValidEndTime()) {
+                hoursWorked = (this.getEndTime().getTime() - this.getStartTime().getTime())/3600000;
+            }
+            return hoursWorked;
         }
     }
 };

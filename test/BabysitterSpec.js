@@ -1,8 +1,8 @@
 describe('Babysitter Kata', function () {
     var babysitter, startTime,endTime, bedTime;
     beforeEach(function () {
-        startTime = new Date("November 13, 2016 15:00:00");
-        endTime = new Date("November 14, 2016 03:59:59");
+        startTime = new Date("November 13, 2016 17:00:00");
+        endTime = new Date("November 14, 2016 04:00:00");
         bedTime = new Date("November 13, 2016 21:00:00");
 
         babysitter = new Babysitter(startTime,endTime, bedTime);
@@ -54,5 +54,12 @@ describe('Babysitter Kata', function () {
         var badBabysitter = new Babysitter(startTime,tooLate,bedTime);
         expect(badBabysitter.isValidEndTime()).toBeFalsy();
     });
+
+
+    it('should give me total hours worked', function () {
+        expect(babysitter.getTotalHoursWorked()).toBe(11);
+    });
+
+
 
 });
