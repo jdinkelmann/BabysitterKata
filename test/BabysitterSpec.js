@@ -33,5 +33,9 @@ describe('Babysitter Kata', function () {
 
     it('should get the post midnight rate', function () {
         expect(babysitter.getPostMidnightRate()).toEqual(16);
+    });
+
+    it('should validate that the current start time is OK', function () {
+        expect(babysitter.isValidStartTime()).toBeTruthy();
     })
 });

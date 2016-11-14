@@ -40,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BabysitterSpec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BabysitterSpec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="45" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="570">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -258,44 +258,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479092111938</updated>
-      <workItem from="1479092114759" duration="3045000" />
+      <workItem from="1479092114759" duration="3523000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 43m 18s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 50m 11s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 43m 45s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 51m 39s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 43m 49s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 51m 44s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 44m 04s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 51m 48s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 44m 10s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 52m 00s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 44m 30s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 52m 28s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 44m 36s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 53m 21s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 46m 02s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 53m 43s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 46m 07s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 54m 05s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.13 at 22h 46m 28s.xml">
+    <history-entry file="karma_conf_js - 2016.11.13 at 22h 54m 24s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3045000" />
+    <option name="totallyTimeSpent" value="3523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -355,18 +355,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
+    <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="570">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
+    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding />
         </state>
       </provider>

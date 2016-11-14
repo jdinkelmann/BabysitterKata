@@ -21,6 +21,9 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         getPostMidnightRate: function() {
             return 16;
+        },
+        isValidStartTime: function() {
+            return this.startTime.getHours() >= 15;
         }
     }
 };
