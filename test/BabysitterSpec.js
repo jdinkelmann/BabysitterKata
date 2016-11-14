@@ -72,6 +72,10 @@ describe('Babysitter Kata', function () {
         expect(babysitter.getPostMidnightHours()).toBe(4);
     });
 
+    it('should give me th total amount of mony I should receive', function () {
+        expect(babysitter.calculateNightlyCharge()).toBe(136);
+    })
+
 
 
 });

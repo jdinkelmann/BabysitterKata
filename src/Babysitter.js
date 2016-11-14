@@ -61,6 +61,12 @@ var Babysitter = function (startTime, endTime, bedTime) {
                hoursWorked = this.getEndTime().getHours();
             }
             return hoursWorked;
+        },
+        calculateNightlyCharge: function () {
+            var preBed = this.getPreBedTimeHours() * this.getPreBedTimeRate();
+            var preMidnight = this.getUntilMidnightHours() * this.getUntilMidnightRate();
+            var postMidnight = this.getPostMidnightHours() * this.getPostMidnightRate();
+            return preBed + preMidnight + postMidnight;
         }
-    }
+    };
 };
