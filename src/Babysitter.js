@@ -27,9 +27,10 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         isValidEndTime: function () {
             var startDay = this.getStartTime().getDay();
-            var endTime = this.getEndTime().getHours();
+            var endHour = this.getEndTime().getHours();
+            var endMinutes = this.getEndTime().getMinutes();
             var endDay = this.getEndTime().getDay();
-            return ((endDay - startDay === 1)  && endTime === 4);
+            return ((endDay - startDay === 1)  && endHour <= 4) && endHour === 4? (endMinutes === 0):true;
         },
         getTotalHoursWorked: function() {
             var hoursWorked = 0;

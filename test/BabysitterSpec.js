@@ -50,7 +50,7 @@ describe('Babysitter Kata', function () {
     });
 
     it('should return false if the end date is past 4am', function () {
-        var tooLate = new Date("November 14, 2016 05:00:00");
+        var tooLate = new Date("November 14, 2016 04:01:00");
         var badBabysitter = new Babysitter(startTime,tooLate,bedTime);
         expect(badBabysitter.isValidEndTime()).toBeFalsy();
     });
@@ -59,6 +59,8 @@ describe('Babysitter Kata', function () {
     it('should give me total hours worked', function () {
         expect(babysitter.getTotalHoursWorked()).toBe(11);
     });
+
+
 
 
 
