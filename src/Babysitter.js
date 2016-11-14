@@ -43,6 +43,8 @@ var Babysitter = function (startTime, endTime, bedTime) {
             var preHours = 0;
             if(typeof this.getBedTime() !== 'undefined') {
                 preHours = Math.floor((this.getBedTime().getTime() - this.getStartTime().getTime())/3600000);
+            } else {
+                preHours = Math.floor(24 - this.getStartTime().getHours());
             }
             return preHours;
         },
@@ -55,9 +57,9 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         getPostMidnightHours: function () {
             var hoursWorked = 0;
-            var startDay = this.getStartTime().getDay();
-            var endDay = this.getEndTime().getDay();
-            if((endDay - startDay === 1)) {
+            var startDay = this.getStartTime().getTime();
+            var endDay = this.getEndTime().getTime();
+            if(((endDay/3600000 - startDay/3600000) <= 11)) {
                hoursWorked = this.getEndTime().getHours();
             }
             return hoursWorked;

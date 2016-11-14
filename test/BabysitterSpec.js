@@ -74,8 +74,22 @@ describe('Babysitter Kata', function () {
 
     it('should give me th total amount of mony I should receive', function () {
         expect(babysitter.calculateNightlyCharge()).toBe(136);
+    });
+
+    describe('testing some conditional routes', function () {
+        it('should return a rate just for pre and post midnight work, did not put the kids to be', function () {
+            var start = new Date("December 31, 2016 17:00:00");
+            var end = new Date("January 1, 2017 04:00:00");
+            var newYearsEve = new Babysitter(start,end);
+
+            expect(newYearsEve.getBedTime()).not.toBeDefined();
+            expect(newYearsEve.isValidStartTime()).toBeTruthy();
+            expect(newYearsEve.isValidEndTime()).toBeTruthy();
+            expect(newYearsEve.getUntilMidnightHours()).toBe(0);
+            expect(newYearsEve.getPostMidnightHours()).toBe(4);
+            expect(newYearsEve.getPreBedTimeHours()).toBe(7);
+            expect(newYearsEve.calculateNightlyCharge()).toBe(148);
+        })
     })
-
-
 
 });

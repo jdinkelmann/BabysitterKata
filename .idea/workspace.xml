@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="431">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="48" />
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+            <state relative-caret-position="371">
+              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -269,44 +269,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479092111938</updated>
-      <workItem from="1479092114759" duration="7889000" />
+      <workItem from="1479092114759" duration="8939000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 02m 03s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 20m 29s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 03m 06s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 20m 41s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 03m 39s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 21m 06s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 04m 24s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 21m 18s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 04m 54s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 23m 19s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 05m 04s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 23m 52s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 06m 20s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 24m 15s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 06m 32s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 24m 25s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 06m 53s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 24m 36s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 00h 07m 10s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 00h 24m 44s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7889000" />
+    <option name="totallyTimeSpent" value="8939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,15 +378,15 @@
     <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
-          <caret line="75" column="48" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="48" />
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+        <state relative-caret-position="371">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
           <folding />
         </state>
       </provider>
