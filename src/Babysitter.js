@@ -45,6 +45,13 @@ var Babysitter = function (startTime, endTime, bedTime) {
                 preHours = Math.floor((this.getBedTime().getTime() - this.getStartTime().getTime())/3600000);
             }
             return preHours;
+        },
+        getUntilMidnightHours: function () {
+            var hoursWorked = 0;
+            if(typeof this.getBedTime() !== 'undefined') {
+                hoursWorked = Math.floor(24 - this.getBedTime().getHours());
+            }
+           return hoursWorked;
         }
     }
 };
