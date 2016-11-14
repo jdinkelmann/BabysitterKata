@@ -1,6 +1,7 @@
 var Babysitter = function (startTime, endTime, bedTime) {
     this.startTime = startTime;
     this.endTime = endTime;
+    this.bedTime = bedTime;
 
     Babysitter.prototype = {
         getStartTime: function () {
@@ -8,6 +9,12 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         getEndTime: function () {
             return this.endTime;
+        },
+        getBedTime: function () {
+            return this.bedTime;
+        },
+        getPreBedTimeRate: function () {
+            return 12;
         }
     }
 };

@@ -5,10 +5,9 @@ describe('Babysitter Kata', function () {
         endTime = new Date("November 14, 2016 03:59:59");
         bedTime = new Date("November 13, 2016 21:00:00");
 
-        babysitter = new Babysitter(startTime,endTime);
+        babysitter = new Babysitter(startTime,endTime, bedTime);
     });
     it('should define the Babysitter', function () {
-        var babysitter = new Babysitter();
         expect(babysitter).toBeDefined();
     });
 
@@ -18,5 +17,13 @@ describe('Babysitter Kata', function () {
 
     it('should retrun the end time if one is passed', function () {
         expect(babysitter.getEndTime()).toEqual(endTime);
+    });
+
+    it('should return the bed time if one is passed', function () {
+        expect(babysitter.getBedTime()).toEqual(bedTime);
+    });
+
+    it('should get pre-bedtime hourly rate', function () {
+        expect(babysitter.getPreBedTimeRate()).toBe(12)
     });
 });
