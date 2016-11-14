@@ -49,5 +49,10 @@ describe('Babysitter Kata', function () {
         expect(badBabysitter.isValidStartTime()).toBeFalsy();
     });
 
+    it('should return false if the end date is past 4am', function () {
+        var tooLate = new Date("November 14, 2016 05:00:00");
+        var badBabysitter = new Babysitter(startTime,tooLate,bedTime);
+        expect(badBabysitter.isValidEndTime()).toBeFalsy();
+    });
 
 });
