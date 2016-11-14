@@ -108,12 +108,33 @@ describe('Babysitter Kata', function () {
 
         it('should return 0 if my start or end times are invalid', function () {
             var start = new Date(2016,11,31,14,0);
-            var end = new Date(2017,0,1,4,0);
-            var newYearsEve = new Babysitter(start,end);
+            var end = new Date(2017,0,1,4,1);
+            var badStart = new Babysitter(start,endTime);
 
-            expect(newYearsEve.getTotalHoursWorked()).toBe(0);
-            expect(newYearsEve.calculateNightlyCharge()).toBe(0);
-        })
+            expect(badStart.getTotalHoursWorked()).toBe(0);
+            expect(badStart.calculateNightlyCharge()).toBe(0);
+
+            var badEnd = new Babysitter(startTime,end);
+
+            expect(badEnd.getTotalHoursWorked()).toBe(0);
+            expect(badEnd.calculateNightlyCharge()).toBe(0);
+
+            var badStartEnd = new Babysitter(start,end);
+
+            expect(badStartEnd.getTotalHoursWorked()).toBe(0);
+            expect(badStartEnd.calculateNightlyCharge()).toBe(0);
+
+        });
+
+        it('should return zero if the dates are more than the alloted time apart, even days', function () {
+            var start = new Date(2016,11,31,17,0);
+            var end = new Date(2017,0,4,4,0);
+            var badStart = new Babysitter(start,end);
+
+            expect(badStart.getTotalHoursWorked()).toBe(0);
+            expect(badStart.calculateNightlyCharge()).toBe(0);
+        });
+
     })
 
 });

@@ -26,11 +26,29 @@ var Babysitter = function (startTime, endTime, bedTime) {
             return this.getStartTime().getHours() >= 17;
         },
         isValidEndTime: function () {
-            var startDay = this.getStartTime().getDay();
-            var endHour = this.getEndTime().getHours();
-            var endMinutes = this.getEndTime().getMinutes();
-            var endDay = this.getEndTime().getDay();
-            return ((endDay - startDay === 1)  && endHour <= 4) && endHour === 4? (endMinutes === 0):true;
+            var startDate = new Date(this.getStartTime()).setHours(0,0,0,0);
+            var endDate = new Date(this.getEndTime()).setHours(0,0,0,0);
+            var sameDay = startDate === endDate;
+
+            if(!sameDay) {
+                var days = ((endDate - startDate)/3600000)/24;
+                var validDate = false;
+
+                if(days <= 1) {
+                    var endHour = this.getEndTime().getHours();
+                    var endMinutes = this.getEndTime().getMinutes();
+                    if(this.getEndTime().getHours() < 4) {
+                        validDate = true;
+                    } else if (endHour === 4 && endMinutes < 1) {
+                        validDate = true;
+                    }
+                } else {
+                    validDate = false;
+                }
+                return validDate;
+            } else {
+                return true;
+            }
         },
         getTotalHoursWorked: function() {
             var hoursWorked = 0;

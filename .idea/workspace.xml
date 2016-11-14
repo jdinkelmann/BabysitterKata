@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BabysitterSpec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BabysitterSpec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+            <state relative-caret-position="326">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,12 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Babysitter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+              <folding>
+                <element signature="e#210#256#0" expanded="false" />
+                <element signature="e#290#334#0" expanded="false" />
+                <element signature="e#368#412#0" expanded="false" />
+                <element signature="e#453#487#0" expanded="false" />
+                <marker date="1479147947000" expanded="false" signature="531:564" ph="{...}" />
+                <marker date="1479147947000" expanded="false" signature="606:640" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +85,8 @@
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/colorpick.user.js" />
-        <option value="$PROJECT_DIR$/test/BabysitterSpec.js" />
         <option value="$PROJECT_DIR$/src/Babysitter.js" />
+        <option value="$PROJECT_DIR$/test/BabysitterSpec.js" />
       </list>
     </option>
   </component>
@@ -270,44 +277,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479092111938</updated>
-      <workItem from="1479092114759" duration="13837000" />
+      <workItem from="1479092114759" duration="23163000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 05s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 24m 20s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 09s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 24m 33s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 14s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 24m 43s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 22s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 24m 53s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 35s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 25m 15s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 45s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 25m 32s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 20m 49s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 25m 39s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 21m 09s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 25m 47s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 21m 16s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 26m 02s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="karma_conf_js - 2016.11.14 at 10h 21m 36s.xml">
+    <history-entry file="karma_conf_js - 2016.11.14 at 13h 26m 06s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13837000" />
+    <option name="totallyTimeSpent" value="23163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,13 +362,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Babysitter.js</url>
-          <line>37</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -385,18 +385,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
+    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="e#210#256#0" expanded="false" />
+            <element signature="e#290#334#0" expanded="false" />
+            <element signature="e#368#412#0" expanded="false" />
+            <element signature="e#453#487#0" expanded="false" />
+            <marker date="1479147947000" expanded="false" signature="531:564" ph="{...}" />
+            <marker date="1479147947000" expanded="false" signature="606:640" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Babysitter.js">
+    <entry file="file://$PROJECT_DIR$/test/BabysitterSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+        <state relative-caret-position="326">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>
