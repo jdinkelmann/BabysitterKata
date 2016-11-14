@@ -1,9 +1,9 @@
 describe('Babysitter Kata', function () {
     var babysitter, startTime,endTime, bedTime;
     beforeEach(function () {
-        startTime = new Date("November 13, 2016 17:00:00");
-        endTime = new Date("November 14, 2016 04:00:00");
-        bedTime = new Date("November 13, 2016 21:00:00");
+        startTime = new Date(2016,10,13,17,0);
+        endTime = new Date(2016,10,14,4,0);
+        bedTime = new Date(2016,10,13,21,0);
 
         babysitter = new Babysitter(startTime,endTime, bedTime);
     });
@@ -39,18 +39,26 @@ describe('Babysitter Kata', function () {
         expect(babysitter.isValidStartTime()).toBeTruthy();
     });
 
+    it('should be valid if end time is prior to midnight', function () {
+        var newEndTime = new Date(2016,10,13,23,15);
+        var preMidnight = new Babysitter(startTime,newEndTime,bedTime);
+        expect(preMidnight.isValidStartTime()).toBeTruthy();
+        expect(preMidnight.isValidEndTime()).toBeTruthy();
+        expect(preMidnight.getTotalHoursWorked()).toBe(6);
+    });
+
     it('should validate that the current end time is OK', function () {
         expect(babysitter.isValidEndTime()).toBeTruthy();
     });
 
     it('should reject an invalid start time', function () {
-        var tooEarly = new Date("November 13, 2016 09:00:00");
+        var tooEarly = new Date(2016,10,13,9,0);
         var badBabysitter = new Babysitter(tooEarly,endTime,bedTime);
         expect(badBabysitter.isValidStartTime()).toBeFalsy();
     });
 
     it('should return false if the end date is past 4am', function () {
-        var tooLate = new Date("November 14, 2016 04:01:00");
+        var tooLate = new Date(2016,10,14,4,1);
         var badBabysitter = new Babysitter(startTime,tooLate,bedTime);
         expect(badBabysitter.isValidEndTime()).toBeFalsy();
     });
@@ -72,14 +80,21 @@ describe('Babysitter Kata', function () {
         expect(babysitter.getPostMidnightHours()).toBe(4);
     });
 
-    it('should give me th total amount of mony I should receive', function () {
+    it('should give me th total amount of money I should receive', function () {
         expect(babysitter.calculateNightlyCharge()).toBe(136);
     });
 
+    it('should only pay me for the full hours I work', function () {
+        var startPartial = new Date(2016,10,13,19,13);
+        var endPartial = new Date(2016,10,14,3,59);
+        var halfBabysitter  = new Babysitter(startPartial, endPartial, bedTime);
+        expect(halfBabysitter.getTotalHoursWorked()).toBe(8);
+    });
+
     describe('testing some conditional routes', function () {
-        it('should return a rate just for pre and post midnight work, did not put the kids to be', function () {
-            var start = new Date("December 31, 2016 17:00:00");
-            var end = new Date("January 1, 2017 04:00:00");
+        it('should return a rate just for pre and post midnight work, did not put the kids to bed', function () {
+            var start = new Date(2016,11,31,17,0);
+            var end = new Date(2017,0,1,4,0);
             var newYearsEve = new Babysitter(start,end);
 
             expect(newYearsEve.getBedTime()).not.toBeDefined();
@@ -89,6 +104,15 @@ describe('Babysitter Kata', function () {
             expect(newYearsEve.getPostMidnightHours()).toBe(4);
             expect(newYearsEve.getPreBedTimeHours()).toBe(7);
             expect(newYearsEve.calculateNightlyCharge()).toBe(148);
+        });
+
+        it('should return 0 if my start or end times are invalid', function () {
+            var start = new Date(2016,11,31,14,0);
+            var end = new Date(2017,0,1,4,0);
+            var newYearsEve = new Babysitter(start,end);
+
+            expect(newYearsEve.getTotalHoursWorked()).toBe(0);
+            expect(newYearsEve.calculateNightlyCharge()).toBe(0);
         })
     })
 

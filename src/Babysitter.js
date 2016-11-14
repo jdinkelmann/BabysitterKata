@@ -34,7 +34,7 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         getTotalHoursWorked: function() {
             var hoursWorked = 0;
-            if(this.isValidStartTime() && this.isValidEndTime()) {
+            if(this.isValidStartTime() && this.isValidEndTime()) {console.log()
                 hoursWorked = Math.floor((this.getEndTime().getTime() - this.getStartTime().getTime())/3600000);
             }
             return hoursWorked;
@@ -65,10 +65,15 @@ var Babysitter = function (startTime, endTime, bedTime) {
             return hoursWorked;
         },
         calculateNightlyCharge: function () {
-            var preBed = this.getPreBedTimeHours() * this.getPreBedTimeRate();
-            var preMidnight = this.getUntilMidnightHours() * this.getUntilMidnightRate();
-            var postMidnight = this.getPostMidnightHours() * this.getPostMidnightRate();
-            return preBed + preMidnight + postMidnight;
+            var myRate = 0;
+            if(this.isValidStartTime() && this.isValidEndTime()) {
+                var preBed = this.getPreBedTimeHours() * this.getPreBedTimeRate();
+                var preMidnight = this.getUntilMidnightHours() * this.getUntilMidnightRate();
+                var postMidnight = this.getPostMidnightHours() * this.getPostMidnightRate();
+                myRate = preBed + preMidnight + postMidnight;
+            }
+
+            return myRate;
         }
     };
 };
