@@ -52,6 +52,15 @@ var Babysitter = function (startTime, endTime, bedTime) {
                 hoursWorked = Math.floor(24 - this.getBedTime().getHours());
             }
            return hoursWorked;
+        },
+        getPostMidnightHours: function () {
+            var hoursWorked = 0;
+            var startDay = this.getStartTime().getDay();
+            var endDay = this.getEndTime().getDay();
+            if((endDay - startDay === 1)) {
+               hoursWorked = this.getEndTime().getHours();
+            }
+            return hoursWorked;
         }
     }
 };

@@ -64,10 +64,13 @@ describe('Babysitter Kata', function () {
         expect(babysitter.getPreBedTimeHours()).toBe(4);
     });
 
-    it('should retur my post-bedtime/pre-midnight hours',function () {
+    it('should return my post-bedtime/pre-midnight hours',function () {
        expect(babysitter.getUntilMidnightHours()).toBe(3);
     });
 
+    it('should my post-midnight hours', function () {
+        expect(babysitter.getPostMidnightHours()).toBe(4);
+    });
 
 
 
