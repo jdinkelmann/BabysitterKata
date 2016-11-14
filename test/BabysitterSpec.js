@@ -30,4 +30,8 @@ describe('Babysitter Kata', function () {
     it('should get the to midnight hourly rate', function () {
         expect(babysitter.getUntilMidnightRate()).toBe(8);
     });
+
+    it('should get the post midnight rate', function () {
+        expect(babysitter.getPostMidnightRate()).toEqual(16);
+    })
 });
