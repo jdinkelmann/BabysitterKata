@@ -15,6 +15,9 @@ var Babysitter = function (startTime, endTime, bedTime) {
         },
         getPreBedTimeRate: function () {
             return 12;
+        },
+        getUntilMidnightRate: function () {
+            return 8;
         }
     }
 };

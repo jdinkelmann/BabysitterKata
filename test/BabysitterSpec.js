@@ -26,4 +26,8 @@ describe('Babysitter Kata', function () {
     it('should get pre-bedtime hourly rate', function () {
         expect(babysitter.getPreBedTimeRate()).toBe(12)
     });
+
+    it('should get the to midnight hourly rate', function () {
+        expect(babysitter.getUntilMidnightRate()).toBe(8);
+    });
 });
